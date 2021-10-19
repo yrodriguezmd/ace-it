@@ -1,5 +1,5 @@
 # Artificially Conscious Entity Ironic Test 
-#### The ORO Health Data Science skin-in-the-game test
+_The ORO Health Data Science skin-in-the-game test_
 
 Hello candidate!
 We are super excited that you have been selected and interested to take on our technical challenge!
