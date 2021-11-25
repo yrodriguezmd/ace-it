@@ -52,7 +52,7 @@ def simple_cnn():
         (nn.ReLU()),
         (nn.BatchNorm2d(512)),
 
-        (nn.Conv2d(in_channels=512, out_channels=4,
+        (nn.Conv2d(in_channels=512, out_channels=3,
                    kernel_size=3,
                    stride=2,
                    padding=3//2)),  # 1
