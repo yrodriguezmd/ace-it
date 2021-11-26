@@ -2,6 +2,11 @@ from utils import *
 
 
 def dblock(valid_pct, size1, size2, rotate, zoom):
+    ''' Fetch images, labels.
+        Splits to a train and validation set.
+        Sets initial image size.
+        Image transformations including resize, rotation, zooming and normalization.'''
+    
     dblock = DataBlock(
         blocks=(ImageBlock(), CategoryBlock()),
         get_items=get_image_files,
