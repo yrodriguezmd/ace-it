@@ -12,6 +12,8 @@ def view_sample(subpath):
 
 
 def verify_images(sets):
+    '''Remove images that cannot be opened'''
+    
     path = Path('/content/ace-it/data_3class_skin_diseases/')
 
     for s in sets:
